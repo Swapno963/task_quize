@@ -4,4 +4,4 @@ from .models import Recipe
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = Recipe
-        fields = "all"
+        fields = '__all__'
